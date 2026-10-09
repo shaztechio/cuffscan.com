@@ -65,3 +65,12 @@ main.page li { margin: .35rem 0; }
 footer.site { border-top: 1px solid var(--border); padding: 1.5rem 0 2.5rem; color: var(--muted); font-size: .925rem; }
 footer.site a { color: var(--muted); }
 footer.site p { margin: .35rem 0; }
+
+img.shot { display: block; width: 100%; height: auto; border-radius: 28px; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+.hero-shot { max-width: 17rem; justify-self: center; }
+.gallery { padding: 1rem 0 3rem; }
+.shots { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); margin-top: 1.25rem; }
+.shots figure { margin: 0; }
+.shots img.shot { max-width: 15rem; margin: 0 auto; }
+.shots figcaption { margin-top: .85rem; text-align: center; color: var(--muted); font-size: .95rem; }
+.shots figcaption strong { color: var(--text); }
