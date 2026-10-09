@@ -4,7 +4,7 @@ The public website for CuffScan.
 Plain static HTML and CSS, no build step. Pages:
 - `index.html` landing page
 - `privacy/` privacy policy (keep in step with the app's About/Help wording)
-- `support/` FAQ and contact (feedback@cuffscan.com)
+- `support/` FAQ and contact (hello@cuffscan.com)
 - `404.html`, `robots.txt`, `sitemap.xml`, `assets/`
 
 Preview locally: `npx serve .`.
